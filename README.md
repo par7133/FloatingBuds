@@ -7,7 +7,7 @@ FloatingBuds is a light and simple software on premise to have conversations wit
 	   
 FloatingBuds is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br>
 	   
-First step, use the left side panel password and salt fields to create the hash to every of your friends in the config file. Remember to manually set there also the salt value.<br><br>
+First step, use the left side panel password and salt fields to create the hash to every of your friends in the config file. Remember to manually set there also the salt value.<br>
 	   
 As you are going to run FloatingBuds in the PHP process context, using a limited web server or phpfpm user, you must follow some simple directives for an optimal first setup:<br>
 
