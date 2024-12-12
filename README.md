@@ -21,6 +21,4 @@ As you are going to run FloatingBuds in the PHP process context, using a limited
      </ul>
  </ol>
 	   
-<br>	
-     
 Feedback: <a href="mailto:posta@elettronica.lol">posta@elettronica.lol</a>
