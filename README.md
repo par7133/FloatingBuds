@@ -3,7 +3,7 @@ Everyone its conversations.
 
 Hello and welcome to FloatingBuds!<br>
 	   
-FloatingBuds is a light and simple software on premise to have conversations with your buddies.<br>
+FloatingBuds is a light and simple software on premise to have uri-based personal conversations with your buddies.<br>
 	   
 FloatingBuds is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br>
 	   
@@ -26,5 +26,9 @@ Login with the password for the admin view, file .txt feed the blog, .png and .j
 For any need of software additions, plugins and improvements please write to <a href="mailto:info@5mode.com">info@5mode.com</a>  
 
 To help please donate by clicking <a href="https://gaox.io/l/dona1">https://gaox.io/l/dona1</a> and filling the form.   
+
+### SCREENSHOTS:
+
+![FloatingBuds depict](/Public/static/res/depict.png)
     
 Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
