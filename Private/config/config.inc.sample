@@ -33,7 +33,7 @@ define('PUBLIC_VIEW', "2");
 define('APP_NAME', "FloatingBuds");
 define('APP_TITLE', "Floating Buds: everyone its conversation.");
 define('APP_SALT', "yoursalt");
-define('APP_HOST', "YourConversation.com");
+define('APP_HOST', "yoursitename.xyz");
 define('APP_PATH', "/var/www/YourWebApp/Public");
 define('APP_HOME_PATH', "/var/www/YourWebApp/Public/home.html");
 define('APP_PRIVATE_PATH', "/var/www/YourWebApp/Private");
@@ -80,7 +80,7 @@ $CONFIG = [
       'NAME' => "FloatingBuds",
       'TITLE' => "Floating Buds: everyone its conversation.",
       'SALT' => "yoursalt",        
-      'HOST' => "YourConversation.com", 
+      'HOST' => "yoursitename.xyz", 
       'PATH' => "/var/www/YourWebApp/Public",
       'HOME_PATH' => "/var/www/YourWebApp/Public/home.html",
       'PRIVATE_PATH' => "/var/www/YourWebApp/Private", 
