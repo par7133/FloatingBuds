@@ -115,15 +115,15 @@
 </head>
 <body>
 
-<div id="langhideit">
+<div id="langhideen">
    <br>
-   &nbsp;We have detected that you maybe speak Italian, do you want to be redirected to the italian site? <button onclick="$('#langhideit').hide();">NO</button>&nbsp;<button onclick="window.open('https://floatingbuds.numode-foss.eu/it','_self');">OK</button>
+   &nbsp;We have detected that you maybe speak English, do you want to be redirected to the english site? <button onclick="$('#langhideen').hide();">NO</button>&nbsp;<button onclick="window.open('https://floatingbuds.numode-foss.eu','_self');">OK</button>
    <br><br>
 </div>
 
-<div id="langhidecn">
+<div id="langhideit">
    <br>
-   &nbsp;We have detected that you maybe speak Chinese, do you want to be redirected to the chinese site? <button onclick="$('#langhidecn').hide();">NO</button>&nbsp;<button onclick="window.open('https://floatingbuds.numode-foss.eu/cn','_self');">OK</button>
+   &nbsp;We have detected that you maybe speak Italian, do you want to be redirected to the italian site? <button onclick="$('#langhideit').hide();">NO</button>&nbsp;<button onclick="window.open('https://floatingbuds.numode-foss.eu/it','_self');">OK</button>
    <br><br>
 </div>
 
@@ -162,24 +162,24 @@
         <span aria-hidden="true">&times;</span>
      </button>
 	
-	   Hello and welcome to FloatingBuds!<br><br>
-	   
-	   FloatingBuds is a light and simple software on premise to have uri-based conversations with your buddies.<br><br>
-	   
-	   FloatingBuds is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br><br>
-	   
-     First step, use the left side panel password and salt fields to create the hash to every of your friends in the config file. Remember to manually set there also the salt value.<br><br>
-	   
-	   As you are going to run FloatingBuds in the PHP process context, using a limited web server or phpfpm user, you must follow some simple directives for an optimal first setup:<br>
-	   <ol>
-	   <li>Check the permissions of your "data" folder in your web app private path; and set its path in the config file.</li>
-     <li>Finish to setup the configuration file apporpriately, in the specific:</li>
-     <ul>
-       <li>Configure the APP_FILE_MAX_SIZE for the upload appropriately.</li>
-       <li>Configure the APP_BLOG_MAX_POSTS attributes as required.</li>
-       <li>Configure the PAGINATION flag as required.</li>	      
-	   </ul>
-     </ol>
+ 您好，欢迎来到 FloatingBuds！<br><br>
+
+ FloatingBuds 是一款轻量且简单的软件，可与您的好友进行基于 uri 的对话。<br><br>
+
+ FloatingBuds 根据 GPLv3 许可证发布，按原样提供，我们对其误用不承担任何责任。<br><br>
+
+ 第一步，使用左侧面板密码和盐字段为配置文件中的每个朋友创建哈希。请记住手动设置盐值。<br><br>
+
+ 当您要使用有限的 Web 服务器或 phpfpm 用户在 PHP 进程上下文中运行 FloatingBuds 时，您必须遵循一些简单的指令以获得最佳的首次设置：<br>
+ <ol>
+ <li>检查网络应用专用路径中“数据”文件夹的权限；并在配置文件中设置其路径。</li>
+ <li>完成配置文件的相应设置，具体为：</li>
+ <ul>
+ <li>适当配置上传的 APP_FILE_MAX_SIZE。</li>
+ <li>根据需要配置 APP_BLOG_MAX_POSTS 属性。</li>
+ <li>根据需要配置 PAGINATION 标志。</li>
+ </ul>
+ </ol>
 	   
 	   <br>	
 
@@ -244,11 +244,11 @@ window.addEventListener("load", function() {
       return ret;
     }
 
-    function isChinese() {
+    function isEnglish() {
       ret = false;
       lang = window.navigator.language;
       lang = lang.toLowerCase();
-      if (lang === "cn" || lang === "zh-cn" || lang === "chinese" || lang === "chinese simplified" || lang === "mandarin") {
+      if (lang === "en" || lang === "en-us" || lang === "en-gb" || lang === "english") {
         ret = true;
       }
       return ret;
@@ -258,8 +258,8 @@ window.addEventListener("load", function() {
       $("#langhideit").show();
     }
 
-    if (isChinese()) {
-      $("#langhidecn").show();
+    if (isEnglish()) {
+      $("#langhideen").show();
     }
 </script>
 
